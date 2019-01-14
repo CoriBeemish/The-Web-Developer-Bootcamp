@@ -1,0 +1,26 @@
+h1 {
+    color: rgb(1, 96, 0);
+    /*border-color: purple;*/
+    /*border-width: 5px;*/
+    /*border-style: solid;*/
+    border: 2px solid rgb(255,100,80);
+    width: 600px;
+    height: 50px;
+}
+
+/*  width
+	color
+	style*/
+
+h4 {
+    background: rgb(255,200,0);
+    width: 600px;
+}
+
+body {
+    background-color: azure;
+}
+
+li{
+    font-size: 50px;
+}
