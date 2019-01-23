@@ -20,9 +20,11 @@
 } */
 
 img {
-	width: 100%;
+	width: 30%;
 }
+
 div {
 	border: 1px solid black;
 	height: 100px;
 }
+
