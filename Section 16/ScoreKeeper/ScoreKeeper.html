@@ -6,15 +6,19 @@
 </head>
 <body>
 
-<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+    <span><h1><span id="p1Display">0</span> to <span id="p2Display">0</span> </h1></span>
+    <span><p>Get <span>5</span> Points to Win!</p></span>
 
-<p>Playing to: <span>5</span></p>
+    <span> <h4>Select the winning amount of points:</h4> </span>
+    <span> <input type="number"> </span>
+    <p id="warning">*Warning: Changing the number during the game will reset the points.</p>
+    
 
-<input type="number">
-<button id="p1">Player One</button>
-<button id="p2">Player Two</button>
-<button id="reset">Reset</button>
-
-<script type="text/javascript" src="scorekeeper.js"></script>
+    <h3>Click who won a point: </h3>
+    <button id="p1">Player One</button>
+    <button id="p2">Player Two</button>
+    <hr />
+    <button id="reset">Reset</button>
+    <script type="text/javascript" src="scorekeeper.js"></script>
 </body>
 </html>

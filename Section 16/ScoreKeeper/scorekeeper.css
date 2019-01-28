@@ -1,3 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+    width: 80%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+h1 {
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #2c3e50;
+    border: 2px solid;
+    width: 250px;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+h4, input.number{
+    display: inline;
+}
+
+p span{
+    font-size:30px;
+}
+
+#warning {
+    color: red;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#p1 {
+    background-color: #008CBA; /* Blue */
+}
+
+#p2 {
+    background-color: #f44336; /* Green */
+}
+
+#reset {
+    background-color: #555555;
+}
+
 .winner {
-	color:green;
+    color: green;
 }

@@ -1,6 +1,18 @@
+body{
+    font-size: 30px;
+}
+
+.date {
+    color: #3498db;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    margin-left: 25px;
+}
+
 .done {
-	text-decoration: line-through;
-	opacity: 0.5;
+    text-decoration: line-through;
+    opacity: 0.5;
+    color: green;
 }
 
 .selected {
