@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo</title>
+</head>
+<body>
+	<h1>Welcome to my DOM Demo</h1>
+	<p>Corgi mixes are <strong>super</strong> adorable</p>
+	<img src="https://barrelhorseworld.com/dogs/images/1145556d.jpg">
+	<img src="https://static.boredpanda.com/blog/wp-content/uploads/2017/05/corgi-mix-cross-breeds-18-591c39272d49f__605.jpg">
+
+    <script>
+        var h1 = document.querySelector("h1");
+        h1.style.color = "red";
+        h1.style.border = "5px solid pink";
+
+
+        var p = document.querySelector("p");
+        p.style.fontSize = "50px";
+        p.style.color = "purple";
+        p.textContent = "Dogs are great.";
+
+        var photo1 = document.querySelector("img");
+        photo1.setAttribute("src", "https://i.imgur.com/OPzHz1O.png");
+    </script>
+</body>
+</html>
