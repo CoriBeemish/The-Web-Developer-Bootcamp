@@ -26,7 +26,7 @@ h1 {
 	line-height: 1.1;
 	font-weight: normal;
 	color: white;
-	background: steelblue;
+	background: lightpink;
 	margin: 0;
 	text-transform: uppercase;
 	padding: 20px 0;
@@ -68,18 +68,7 @@ button {
 	outline: none;
 }
 
-#rgbInfo {
-    margin-left: 40%;
-    text-align: center;
-}
-
-#rgbInfo:hover {
-
-    color: white;
-    background: #0e7213;
-}
-
 button:hover {
-    color: white;
-    background: steelblue;
+	color: white;
+	background: steelblue;
 }
