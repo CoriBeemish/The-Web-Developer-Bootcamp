@@ -1,10 +1,6 @@
 body {
 	font-family: Roboto;
-  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+    background-color: lavender;
 }
 
 ul {
@@ -15,21 +11,33 @@ ul {
 
 
 h1 {
-	background: #2980b9;
-	color: white;
-	margin: 0;
-	padding: 10px 20px;
-	text-transform: uppercase;
-	font-size: 24px;
-	font-weight: normal;
+    background: #9090f6;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h3 {
+    background: #9090f6;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+p {
+    color: #666;
+    margin: 10px 10px 5px 20px;
+    padding-bottom: 10px;
 }
 
 .fa-plus {
 	float: right;
 }
-
-
-
 
 li {
 	background: #fff;
@@ -82,7 +90,66 @@ input:focus{
 	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
 }
 
+#features {
+    margin-left: 10px;
+}
+
 .completed {
 	color: gray;
 	text-decoration: line-through;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: lavender;
+    padding: 10px 10px;
+}
+
+    .header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+    }
+
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+            cursor: auto;
+        }
+
+        .header a.active {
+            color: floralwhite;
+            background-color: #9090f6;
+        }
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+.footer {
+    font-size: 16px;
+    color: grey;
+    
 }
